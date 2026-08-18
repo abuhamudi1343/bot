@@ -9,7 +9,7 @@ import time
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
-token os.getenv("TOKEN")
+token = os.getenv("TOKEN")
 ltc = "LNVp174T3ChPqEZr2GHRDrybPCP1rDYtxA"
 
 bot = commands.Bot(command_prefix="!", intents=discord.Intents.default())
