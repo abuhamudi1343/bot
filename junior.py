@@ -4,6 +4,7 @@ from discord.ext import commands
 import requests
 import ast
 import operator
+import os
 import re
 import time
 from datetime import datetime
